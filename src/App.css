@@ -1,0 +1,53 @@
+.App {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  margin: 20px;
+}
+
+h1 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 10px;
+}
+
+label {
+  font-size: 16px;
+  margin-bottom: 5px;
+}
+
+input {
+  width: 100px;
+  padding: 8px;
+  border: 2px solid #3498db;
+  border-radius: 5px;
+  font-size: 16px;
+  text-align: center;
+  outline: none;
+  transition: border-color 0.2s;
+}
+
+input:focus {
+  border-color: #ff6b6b;
+}
+
+div > input {
+  margin-top: 5px;
+}
+
+label[for="celsius"] {
+  color: #3498db;
+}
+
+label[for="fahrenheit"] {
+  color: #f39c12;
+}
+
+label[for="kelvin"] {
+  color: #e74c3c;
+}
